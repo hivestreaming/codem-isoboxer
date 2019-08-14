@@ -1,6 +1,6 @@
 /*! codem-isoboxer v0.2.2 https://github.com/madebyhiro/codem-isoboxer/blob/master/LICENSE.txt */
 if (typeof ISOBoxer === 'undefined') {
-  ISOBoxer = {};
+  var ISOBoxer = {};
 }
 
 ISOBoxer.parseBuffer = function(arrayBuffer) {
